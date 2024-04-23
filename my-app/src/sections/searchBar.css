@@ -2,6 +2,6 @@
     display: flex;
     gap: 50px;
     justify-content: center;
-    border: dashed white 1px;
+    border: dashed black 1px;
     width: 100%;
 }

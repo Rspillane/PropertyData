@@ -1,9 +1,9 @@
 import * as React from 'react';
 import Search from './components/Search';
-// import Sort from './components/Sort';
 
 import './searchBar.css';
 import MultipleSelectCheckmarks from './components/Sort';
+import { Button } from '@mui/material';
 
 const SearchBar = () => {
 
@@ -13,7 +13,7 @@ const SearchBar = () => {
             <nav className='search-section'>
                 <Search/>
                 <MultipleSelectCheckmarks/>
-                <button>Search</button>
+                <Button variant='contained' size='medium'>Search</Button>
             </nav>
         </>
     )

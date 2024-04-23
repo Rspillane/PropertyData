@@ -8,7 +8,7 @@ const Search = () => {
     return (
         <>
             <div className='search-box'>
-                <p>search: </p>
+                <p>Enter a Road, Town or Postcode</p>
                 <input type='text'></input>
             </div>
         </>

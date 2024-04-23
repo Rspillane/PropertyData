@@ -1,0 +1,6 @@
+.sort-box {
+    border: dashed white 1px;
+
+    display: flex;
+    flex-direction: column;
+}

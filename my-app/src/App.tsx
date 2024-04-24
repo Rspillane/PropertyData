@@ -4,15 +4,17 @@ import './App.css';
 
 // import comps
 import SearchBar from './sections/searchBar';
+import Main from './sections/main';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <SearchBar/>
-        <img src={logo} className="App-logo" alt="logo" />
-
       </header>
+      <body id='App-body'>
+        <Main/>
+      </body>
     </div>
   );
 }

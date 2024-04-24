@@ -1,6 +1,8 @@
 import * as React from 'react';
 
-import './search.css';
+import TextField from '@mui/material/TextField';
+
+// import './search.css';
 
 const Search = () => {
 
@@ -8,8 +10,7 @@ const Search = () => {
     return (
         <>
             <div className='search-box'>
-                <p>Enter a Road, Town or Postcode</p>
-                <input type='text'></input>
+                <TextField id="search-input" label="Location" variant="outlined" />
             </div>
         </>
     )

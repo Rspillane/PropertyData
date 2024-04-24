@@ -1,5 +1,6 @@
 import * as React from 'react';
-import Search from './components/Search';
+// import Search from './components/Search';
+import TextField from '@mui/material/TextField';
 
 import './searchBar.css';
 import MultipleSelectCheckmarks from './components/Sort';
@@ -11,7 +12,8 @@ const SearchBar = () => {
     return (
         <>
             <nav className='search-section'>
-                <Search/>
+                {/* <Search/> */}
+                <TextField id="search-input" label="Location" variant="outlined" />
                 <MultipleSelectCheckmarks/>
                 <Button variant='contained' size='medium'>Search</Button>
             </nav>
